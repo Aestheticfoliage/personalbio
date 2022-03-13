@@ -1,0 +1,13 @@
+* {
+    background-color: aquamarine;
+}
+
+#resume {
+    flex: content;
+    height: auto;
+    width: 100%;
+    color: brown;
+    padding: 5,8;
+    margin: 2,3;
+    box-shadow: 3,2;
+}
