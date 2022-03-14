@@ -12,11 +12,14 @@
 header {
   display: inline;
   justify-content: flex-end;
-  height: 100px;
-  width: 100;
+  height: max-content;
+  width: 100%;
   color: #1c310b;
 }
-nav a:link {
+nav{
+  height: max-content;
+}
+ a:link {
   color: blue;
 }
 a:visited {
