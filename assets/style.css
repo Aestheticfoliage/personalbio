@@ -28,6 +28,7 @@ body{
   
 }
 nav{
+  font-size: large;
   height: max-content;
 }
  a:link {
