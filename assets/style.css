@@ -1,16 +1,42 @@
 :root {
-  --blue: #271db6;
-  --green: #235f06;
-  --brown: #b95a46;
-  --light: #78cf30;
-  --dark: #1c310b;
+  --blue: #DDA15E;
+  --green: #606C38;
+  --brown: #BC6C25;
+  --light: #FEFAE0;
+  --dark: #283618;
 }
 
 * {
-display: grid;
   background-color: var(--green);
+  font-style: italic;
+  padding: 40px;
+  border: line  red;
 }
-.resumeTable{
+body{
+display: flex;
+flex-wrap: wrap;
+background-color: #DDA15E;
+/* Centers along the main axis determined by flex-direction */
+justify-content: center;
+/* Centers along the opposite axis */
+align-items: center;
+width: 90%;
+/* Uses the height of the viewport */
+height: 100vh;
+margin: 0 auto;
+border-style: solid line #eee;
+border-width: 2px;
+}
+.mainBox{
+  max-width: fit-content;
+  justify-items: self-end;
+}
+#box{
+  border: solid line red;
+  align-items: flex-start;
+}
+
+/* .resumeTable{
   display: flex;
   align-content: flex-start;
 }
@@ -92,4 +118,4 @@ h1 {
 footer {
   display: inline;
   align-items: flex-end;
-}
+} */
